@@ -4,5 +4,5 @@ import { userReducer } from './user'
 
 export const rootReducer = combineReducers({
   page: pageReducer,
-  user: userReducer
+  user: userReducer,
 })
