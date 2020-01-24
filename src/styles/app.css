@@ -163,8 +163,10 @@ h3 {
 }
 
 .page h3 {
-  width: 100%;
+  width: 100vw;
+  font-size: 20px;
 }
+
 
 .page .photo {
   margin: 5px;

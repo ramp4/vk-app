@@ -42,6 +42,7 @@ export class Page extends React.Component {
     const { year, photos } = this.props
     return (
       <div className="ib page">
+        <h3 className="hint">Выбери год и увидишь фотографии за этот год с твоего Vk</h3>
         <p>{this.renderButtons()}</p>
         <h3>
           {year} год [{photos.length}]
