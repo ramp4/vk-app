@@ -147,14 +147,14 @@ h3 {
   font: 14px sans-serif;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 
 
 
 .page {
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
@@ -173,7 +173,7 @@ h3 {
 }
 
 .user {
-  width: 20%;
+  width: 30%;
   vertical-align: top;
   font-size: 36px;
 }
